@@ -5,9 +5,41 @@
   <header class="masthead" >
 
     <div class="container d-flex  align-items-center" >
+        <div class="card" style="width: 100%; margin-top:15%;">
+            <div >
+                <img style="" src="{% static cities.cover.url %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h3 class="card-title" style="text-transform: uppercase" align="center"><b>{{cities.title}}</b></h3>
+                    <p class="card-text">{{cities.content}} </p>
 
-        <h1>CİTY</h1>
+                  </div>
+            </div>
+
+
+        </div>
     </div>
+      <div class="container d-flex  align-items-center" >
+        <div class="card" style="width: 100%;margin-top:5">
+            <h3 align="center" style="padding:20"><b>Comments</b></h3>
+                <form>
+
+                    <input style="width:80%;height:100;margin-left:5" type="text"/>
+                    <button class="btn btn-success">  Share</button>
+                </form>
+                <hr color="gray" style="height:1">
+        </div>
+      </div>
+      {% for cities in object_list %}
+
+                <div class="card" style="width: 40%; margin:3%">
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-transform: uppercase" align="center">{{cities.title}}</h3>
+                    <p class="card-text">{{cities.content|safe|truncatewords:"25"}} <a href="{{ cities.get_absolute_url }}" style="text-decoration:underline;color:red">Readmore</a></p>
+                    <a href="{{ cities.get_absolute_url }}" class="btn btn-primary" >Go somewhere</a>
+                  </div>
+                </div>
+
+       {% endfor %}
 
      </div>
   </header>

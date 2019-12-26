@@ -8,6 +8,8 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">EPIC TURKEY</h1>
+        <p style="color:white">Welcome {{e}}</p>
+        <button type="button" onclick="location.href='{% url 'log' %}'">Logout</button>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="{% url 'cities'%}" class="btn btn-primary js-scroll-trigger">Let's Discover</a>
       </div>

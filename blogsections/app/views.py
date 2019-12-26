@@ -1,7 +1,7 @@
-from django.urls import reverse
-from django.views.generic import ListView
+from django.shortcuts import get_object_or_404
+from django.views.generic import ListView, DetailView
 from django.views.generic.base import TemplateView
-from blogsections.app.models import Cities, Article, City
+from blogsections.app.models import Cities,Comments
 from django.core.paginator import Paginator
 from django.core.paginator import EmptyPage
 from django.core.paginator import PageNotAnInteger
@@ -16,9 +16,20 @@ class HomeView(TemplateView):
 class AboutView(TemplateView):
     template_name = "app/about.html"
 
+
+class CityDetails(DetailView):
+    template_name = 'app/city.html'
+
+    def get_object(self):
+        city_id = self.kwargs.get("id")
+        return get_object_or_404(Cities, id=city_id)
+    def get_context_data(self, *args, **kwargs):
+        context = super().get_context_data(*args, **kwargs)
+        city_id = self.kwargs.get('id')
+        context['city_id'] = city_id
+        return context
 class CitiesView(ListView):
     model = Cities
-    city = Cities.objects.get(id=1)
     template_name = 'app/Cities.html'
     paginate_by = 4
 
@@ -38,10 +49,7 @@ class CitiesView(ListView):
 
         context['list_exams'] = file_exams
         return context
-class CityView(ListView):
-    model = City
-    template_name = 'app/city.html'
-    paginate_by = 4
+
 
 
 

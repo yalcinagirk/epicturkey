@@ -7,7 +7,8 @@
     <div class="container d-flex  align-items-center" >
 
         <div class="row" style="margin-top:10%; margin-bottom:20%">
-            <div class="pagination" style="width:100%" align="center" >
+            <div style="width:100%">
+                <div class="pagination"  style="margin-left:40%" >
                 {% if is_paginated %}
                 <ul class="pagination">
                 {% if page_obj.has_previous %}
@@ -25,23 +26,25 @@
                 {% endif %}
                 </ul>
                 {% else %}
-                    <h3>Your File Exam</h3>
-                    <p>File not yet available</p>
                 {% endif %}
             </div>
+            </div>
+
+
             {% for cities in object_list %}
 
                 <div class="card" style="width: 40%; margin:3%">
                   <img src="{% static cities.cover.url %}" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h3 class="card-title" style="text-transform: uppercase" align="center">{{cities.title}}</h3>
-                    <p class="card-text">{{cities.content|safe|truncatewords:"25"}} <a href="" style="text-decoration:underline;color:red">Readmore</a></p>
-                    <a href="{% url 'city' %}" class="btn btn-primary">Go somewhere</a>
+                    <p class="card-text">{{cities.content|safe|truncatewords:"25"}} <a href="{{ cities.get_absolute_url }}" style="text-decoration:underline;color:red">Readmore</a></p>
+                    <a href="{{ cities.get_absolute_url }}" class="btn btn-primary" >Go somewhere</a>
                   </div>
                 </div>
 
             {% endfor %}
-            <div class="pagination" style="width:100%" align="center" >
+            <div style="width:100%">
+                <div class="pagination"  style="margin-left:40%" >
                 {% if is_paginated %}
                 <ul class="pagination">
                 {% if page_obj.has_previous %}
@@ -59,9 +62,10 @@
                 {% endif %}
                 </ul>
                 {% else %}
-                    <h3>Your File Exam</h3>
-                    <p>File not yet available</p>
+                    <h3></h3>
+                    <p></p>
                 {% endif %}
+            </div>
             </div>
 
         </div>

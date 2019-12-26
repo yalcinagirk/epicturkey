@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a38d2e71-165e-442f-8f18-83ef34cdf2db" name="Default Changelist" comment="" />
+    <list default="true" id="a38d2e71-165e-442f-8f18-83ef34cdf2db" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogsections/templates/signIn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogsections/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogsections/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epicturkey/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ahmet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/yalcin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/account/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/app/migrations/0002_auto_20191221_1801.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/templates/app/Cities.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/templates/app/Cities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/templates/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/templates/app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/templates/app/city.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/templates/app/city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/templates/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/templates/app/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogsections/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogsections/templates/registration/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epicturkey/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/epicturkey/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ankara.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/antalya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/antalya_L5tmS9x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/demo-image-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/istanbul.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo2_saydam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_saydam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_saydam_der3zco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/trabzon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/grayscale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/grayscale.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/grayscale.min.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +55,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1SStuTYxsRdhRKa2kdgdPUo211D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,7 +70,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blogsections/templates/app" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -34,9 +83,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blogsections/templates/app" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/blogsections/templates" />
+      <recent name="$PROJECT_DIR$/blogsections/templates/app" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -53,5 +102,31 @@
   </component>
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="600" y="149" width="777" height="807" key="CommitChangelistDialog2" timestamp="1577393790969">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="600" y="149" width="777" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1577393790969" />
+    <state x="790" y="199" key="SettingsEditor" timestamp="1577287660659">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="790" y="199" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1577287660659" />
+    <state x="761" y="472" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577393776492">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="761" y="472" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1577393776492" />
+    <state x="189" y="254" key="run.anything.popup" timestamp="1577032766967">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="189" y="254" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1577032766967" />
+    <state x="193" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1577376376381">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="193" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1577376376381" />
   </component>
 </project>

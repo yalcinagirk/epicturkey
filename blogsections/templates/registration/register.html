@@ -4,16 +4,32 @@
 <div class="masthead">
     <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-            <h1>Register</h1>
+            <div >
+                <h1  >Register</h1>
+            </div>
+
             <br>
+            <div style="color:white;width:80%">
+                <div style="margin-right:10%;" align="right">
+                    <form method="post" action="/postsignup/">
+                    {% csrf_token %}
+                        Name:
+                        <input type="text" name="name"><br><br>
+                        Email :
+                        <input type="email" name="email"><br><br>
+                        Password:
+                        <input type="password" name="pass"><br><br>
 
-            <form method="post">
-                {% csrf_token %}
-                {{ form.as_p }}
+                        <button style="" class="btn btn-success" type="submit">SignUp</button>
 
-                <button type="POST">Register</button>
-                <a href="{% url 'login'%}">Login</a>
-            </form>
+                    </form>
+                    <a  href="{% url 'login'%}">Sign-IN</a>
+
+                </div>
+
+                </form>
+            </div>
+
         </div>
     </div>
 </div>

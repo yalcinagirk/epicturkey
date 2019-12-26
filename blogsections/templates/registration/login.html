@@ -1,17 +1,31 @@
 {% extends "base.html" %}
+{% load static%}
 {% block content %}
 
  <div class="masthead">
     <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1>Login</h1>
-          <br>
-        <form method="post">
-          {% csrf_token %}
-          {{ form.as_p }}
-          <button type="submit">Login</button>
-          <a href="{%url 'register'%}">Sing Up</a>
-        </form>
+
+
+      <div class="mx-auto text-center"  style="-moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;width:60%;height:50%})">
+        <h1 align="center" >Login</h1>
+          <div  align="center" style="width:80%">
+              <div align="right" style="color:white;font-size:15;font-weight:bold;margin-right:10%">
+                    <form action="/postsign/"  style=" width:60%;height:20%;margin-top:10%" method="post" '">
+                      {% csrf_token %}
+                            Email :
+                            <input type="email" name="email"><br><br>
+                            Password:
+                            <input type="password" name="pass"><br><br>
+                      <button class="btn btn-dark" style="height:10%;padding:15 35 30 35" type="submit">Login</button>
+                      <a class="btn btn-success" style="height:10%;padding:15 35 30 35" href="{%url 'register'%}">SingUp</a>
+
+                </form>
+              </div>
+
+          </div>
+
       </div>
     </div>
   </div>
